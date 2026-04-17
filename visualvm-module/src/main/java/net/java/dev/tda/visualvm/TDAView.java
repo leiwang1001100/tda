@@ -88,12 +88,12 @@ public class TDAView extends DataSourceView {
         buttonPanel.setBackground(Color.WHITE);
         buttonPanel.setBorder(BorderFactory.createEmptyBorder(6, 0, 3, 0));
         
-        collapseAllButton = new JButton(NbBundle.getMessage(TDAView.class, "LBL_CollapseTree"), TDA.createImageIcon("Collapsed.gif"));
+        collapseAllButton = new JButton(NbBundle.getMessage(TDAView.class, "LBL_CollapseTree"), TDA.createImageIcon("Collapsed.png"));
         collapseAllButton.addActionListener((ActionEvent e) -> {
             tdaPanel.expandAllDumpNodes(false);
         });
 
-        expandAllButton = new JButton(NbBundle.getMessage(TDAView.class, "LBL_ExpandTree"), TDA.createImageIcon("Expanded.gif"));
+        expandAllButton = new JButton(NbBundle.getMessage(TDAView.class, "LBL_ExpandTree"), TDA.createImageIcon("Expanded.png"));
         expandAllButton.addActionListener((ActionEvent e) -> {
             tdaPanel.expandAllDumpNodes(true);
         });
