@@ -6,6 +6,12 @@
 # TDA - Thread Dump Analyzer
 
 > [!IMPORTANT]
+> 
+> **2026-18-04 - TDA 3.1 available.**
+> *   **VisualVM Plugin**: proper integration in VisualVM working again.
+> *   **Logfile Parsing**: Support for UTF16 files.
+> *   **UI**: some small fixes.
+> 
 > **2026-01-30 - TDA 3.0 is now available!** 🚀
 > This major release brings significant enhancements:
 > *   **Extended MCP Server**: Now with **Carrier Thread Pinning** detection and support for **SMR (Safe Memory Relocation)** parsing.

@@ -2,6 +2,14 @@
 
 All notable changes to TDA (Thread Dump Analyzer) will be documented in this file.
 
+## [3.1]
+### Features
+ - Support for UTF16 Logfiles.
+
+### Bugfixes
+ - Fixed VisualVM plugin configuration for proper integration in VisualVM.
+ - Small UI Fixes.
+
 ## [3.0]
 ### Features
 - Introduced logging for easier debugging in MCP mode, added red dot in UI mode if error occurred with tooltip to check logfile.
